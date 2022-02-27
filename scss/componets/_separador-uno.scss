@@ -1,0 +1,15 @@
+@import"../base/variables";
+
+div{
+    background-color: $bg-secundario;
+    h1{
+        font-size:$fz-titulo;
+        font-family: $ff-general;
+        color: $color_title;
+    }
+    h2{
+        font-size: $fz-parrafo;
+        font-family: $ff-general;
+        color: $color_title;
+    }
+}

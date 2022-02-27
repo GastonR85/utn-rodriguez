@@ -1,45 +1,49 @@
-.ml-auto {
-    margin-left: auto;
+/*Variables*/
+nav {
+  background-color: #b6b6be;
 }
-.ft-text1{
-    font-family: 'Nunito', sans-serif;
-    font-size: 2rem;
-    font-weight: 100;
-    color: white;
+nav div ul {
+  margin-left: auto;
 }
-
-.ft-text2{
-    font-family: 'Nunito', sans-serif;
-    font-weight:lighter;
-    font-size: 1rem;
-    font-style: italic;
-    color: white;
+nav div ul li {
+  margin: auto;
 }
-
-
-.ft-text3{
-    font-family: 'Nunito', sans-serif;
-    font-weight:lighter;
-    font-size: 2rem;
-    color: white;
-    text-decoration: none;
+nav div ul li a {
+  color: #f5f0f0;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px 5px;
 }
-
-.ft-card{
-    font-family: 'Nunito', sans-serif;
-    font-weight:200;
-    border-bottom: 1px solid white;
-    font-size: 3rem;
-    color: white;
-
+nav div ul li a:hover {
+  color: black;
+  background-color: #d9d9f3;
+  border: 1px solid #d9d9f3;
+  border-radius: 5px;
+}
+nav div a img {
+  width: 100%;
+  max-width: 250px;
+}
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: #358168;
+  }
 }
 
-.car-br{
-    border: 4px solid white;
-    border-radius: 10px;
-    overflow: hidden;
-    transition:all ease-in-out 0.5s;
+/*Variables*/
+div {
+  background-color: #b6b6be;
 }
-.car-br:hover {
-    transform: scale(1.05);
+div h1 {
+  font-size: 40px;
+  font-family: "Nunito", sans-serif;
+  color: #f5f0f0;
 }
+div h2 {
+  font-size: 25px;
+  font-family: "Nunito", sans-serif;
+  color: #f5f0f0;
+}
+
+/*# sourceMappingURL=style.css.map */
